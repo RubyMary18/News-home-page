@@ -8,10 +8,37 @@
 }
 
 .wrapper {
-  width: 75%;
+  width: 77%;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 .left-card figure img {
   width: 100%;
 }
+
+/*header section start*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.right-nav {
+  display: flex;
+  gap: 43px;
+}
+
+header {
+  padding-top: 90px;
+  padding-bottom: 55px;
+}
+
+/*header section end*/
