@@ -204,4 +204,10 @@ h5 {
 .third-card {
   flex-basis: 31.5%;
 }
+
+.first-para,
+.second-para {
+  width: 90%;
+}
+
 /*main section end*/
