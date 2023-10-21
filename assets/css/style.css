@@ -44,6 +44,7 @@ header {
 
 .right-nav li a {
   font-size: 16.5px;
+  color: #74707b;
 }
 
 /*header section end*/
@@ -173,22 +174,23 @@ h4 {
   font-size: 30px;
   color: #c6c2ca;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 h5 {
   font-size: 19px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .small-card-info p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.4;
 }
 /*small card section end*/
 
 .container {
-  padding-bottom: 100px;
+  padding-bottom: 140px;
 }
 
 .first-card {
