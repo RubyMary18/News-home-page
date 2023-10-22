@@ -47,6 +47,9 @@ header {
   color: #74707b;
 }
 
+.right-nav li:hover a {
+  color: #e1534c;
+}
 /*header section end*/
 
 /*main section start*/
@@ -183,6 +186,17 @@ h5 {
   margin-bottom: 17px;
 }
 
+h5:hover {
+  color: #e1534c;
+  cursor: pointer;
+}
+
+.btn-div:hover {
+  background-color: #4954e2;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
 .small-card-info p {
   font-size: 15.5px;
   line-height: 1.4;
@@ -213,3 +227,24 @@ h5 {
 }
 
 /*main section end*/
+
+/*Responsive Design*/
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+}
+
+/*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+}
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+}
+
+/*media query for 480px starts here*/
+@media only screen and (max-width: 480px) {
+}
