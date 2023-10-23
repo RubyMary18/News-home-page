@@ -129,6 +129,11 @@ h4 {
   margin-top: 35px;
 }
 
+h4:hover {
+  color: #de9c4b;
+  cursor: pointer;
+}
+
 .new-list p {
   font-size: 16px;
   line-height: 1.6;
@@ -136,7 +141,7 @@ h4 {
   margin-bottom: 30px;
 }
 
-.new-list li {
+.new-list li:not(:last-child) {
   border-bottom: 1px solid #383850;
 }
 
@@ -192,7 +197,7 @@ h5:hover {
 }
 
 .btn-div:hover {
-  background-color: #4954e2;
+  background-color: #000;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -229,6 +234,10 @@ h5:hover {
 /*main section end*/
 
 /*Responsive Design*/
+/*media query for 1500px starts here*/
+@media only screen and (max-width: 1500px) {
+}
+
 /*media query for 1024px starts here*/
 @media only screen and (max-width: 1024px) {
 }
