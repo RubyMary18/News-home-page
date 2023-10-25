@@ -235,7 +235,69 @@ h5:hover {
 
 /*Responsive Design*/
 /*media query for 1500px starts here*/
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1440px) {
+  .left-card figure {
+    height: 60%;
+    margin-bottom: 0px;
+  }
+
+  .left-card figure img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .left-card-bottom {
+    height: 40%;
+    align-items: flex-end;
+  }
+
+  /* h2 {
+    padding-right: 3%;
+  }
+
+  .we-container {
+    padding-left: 3%;
+  } */
+
+  .we-container p {
+    margin-bottom: 35px;
+  }
+}
+
+/*media query for 1400px starts here*/
+@media only screen and (max-width: 1400px) {
+  h2 {
+    font-size: 4.5vw;
+  }
+
+  .we-container p,
+  .btn-div a {
+    font-size: 1.1vw;
+  }
+
+  .left-card-bottom {
+    align-items: center;
+  }
+
+  h5 {
+    font-size: 1.3vw;
+  }
+
+  .small-card-info p {
+    font-size: 1.1vw;
+  }
+
+  .small-card-list li {
+    gap: 5%;
+  }
+
+  .small-card-list img {
+    height: 100%;
+  }
+
+  .small-card-info {
+    padding: 0 5%;
+  }
 }
 
 /*media query for 1024px starts here*/
