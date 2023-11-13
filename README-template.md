@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/RubyMary18/News-home-page)
-- Live Site URL: [Add live site URL here](https://rubymary18.github.io/News-home-page/)
+- Solution URL: [https://github.com/RubyMary18/News-home-page]
+- Live Site URL: [https://rubymary18.github.io/News-home-page/]
 
 ## My process
 
