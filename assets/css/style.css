@@ -540,8 +540,85 @@ ul.show {
   .card > .wrapper {
     width: 90%;
   }
+
+  .small-card-list figure {
+    flex-basis: 40%;
+  }
+
+  .small-card-list li figure img {
+    height: 225px;
+  }
+
+  .small-card-info p {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+
+  .small-card-info {
+    flex-grow: 1;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
 }
 
-/*media query for 480px starts here*/
-@media only screen and (max-width: 480px) {
+/*media query for 375px starts here*/
+@media only screen and (max-width: 375px) {
+  header {
+    padding: 27px 0 30px;
+  }
+
+  h1 img {
+    width: 44px;
+    height: 26px;
+  }
+
+  .hamburger img {
+    width: 40px;
+    height: 20px;
+  }
+
+  .left-card figure img {
+    height: 288px;
+  }
+
+  .left-card-bottom {
+    margin: 20px 0;
+  }
+
+  .left-card-bottom h2 {
+    font-size: 38px;
+  }
+
+  .left-card-bottom h2 {
+    line-height: 40px;
+  }
+
+  .left-card-bottom {
+    gap: 20px;
+  }
+
+  .we-container p {
+    margin-bottom: 23px;
+  }
+
+  .btn-div {
+    padding: 14px 9%;
+  }
+
+  .left-card-bottom {
+    margin: 20px 0 60px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  .right-card {
+    padding: 25px 6% 0 6%;
+  }
 }
