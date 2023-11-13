@@ -157,7 +157,6 @@ h4:hover {
 /*small card section start*/
 .small-card-list {
   display: flex;
-  /* gap: 50px; */
 }
 
 .small-card-list li {
@@ -294,14 +293,6 @@ ul.show {
     height: 40%;
     align-items: flex-end;
   }
-
-  /* h2 {
-    padding-right: 3%;
-  }
-
-  .we-container {
-    padding-left: 3%;
-  } */
 
   .we-container p {
     margin-bottom: 35px;
