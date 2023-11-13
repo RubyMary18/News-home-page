@@ -525,6 +525,13 @@ ul.show {
 
 /*media query for 540px starts here*/
 @media only screen and (max-width: 540px) {
+  .left-card-bottom {
+    flex-direction: column;
+  }
+
+  .we-container p {
+    font-size: 15px;
+  }
 }
 
 /*media query for 480px starts here*/
