@@ -521,6 +521,10 @@ ul.show {
   .small-card-info p {
     font-size: 17px;
   }
+
+  .left-card figure img {
+    height: 300px;
+  }
 }
 
 /*media query for 540px starts here*/
@@ -531,6 +535,10 @@ ul.show {
 
   .we-container p {
     font-size: 15px;
+  }
+
+  .card > .wrapper {
+    width: 90%;
   }
 }
 
