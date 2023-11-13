@@ -521,12 +521,137 @@ ul.show {
   .small-card-info p {
     font-size: 17px;
   }
+
+  .left-card figure img {
+    height: 300px;
+  }
 }
 
 /*media query for 540px starts here*/
 @media only screen and (max-width: 540px) {
+  .left-card-bottom {
+    flex-direction: column;
+  }
+
+  .we-container p {
+    font-size: 15px;
+  }
+
+  .card > .wrapper {
+    width: 90%;
+  }
+
+  .small-card-list figure {
+    flex-basis: 40%;
+  }
+
+  .small-card-list li figure img {
+    height: 225px;
+  }
+
+  .small-card-info p {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+
+  .small-card-info {
+    flex-grow: 1;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .container {
+    padding-bottom: 80px;
+  }
 }
 
-/*media query for 480px starts here*/
-@media only screen and (max-width: 480px) {
+/*media query for 375px starts here*/
+@media only screen and (max-width: 375px) {
+  header {
+    padding: 27px 0 30px;
+  }
+
+  h1 img {
+    width: 44px;
+    height: 26px;
+  }
+
+  .hamburger img {
+    width: 40px;
+    height: 20px;
+  }
+
+  .left-card figure img {
+    height: 288px;
+  }
+
+  .left-card-bottom {
+    margin: 20px 0;
+  }
+
+  .left-card-bottom h2 {
+    font-size: 38px;
+  }
+
+  .left-card-bottom h2 {
+    line-height: 40px;
+  }
+
+  .left-card-bottom {
+    gap: 20px;
+  }
+
+  .we-container p {
+    margin-bottom: 23px;
+  }
+
+  .btn-div {
+    padding: 14px 9%;
+  }
+
+  .left-card-bottom {
+    margin: 20px 0 60px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  .right-card {
+    padding: 18px 6% 0 6%;
+  }
+
+  .new-list h4 {
+    font-size: 19px;
+  }
+
+  .new-list p {
+    font-size: 14.5px;
+  }
+
+  .card > .wrapper {
+    width: 93%;
+  }
+
+  .small-card-list figure {
+    flex-basis: 30%;
+  }
+
+  .small-card-list li figure img {
+    height: 125px;
+  }
+
+  .small-card-info span {
+    font-size: 32px;
+  }
+
+  .small-card-info p {
+    font-size: 14px;
+    width: 100%;
+  }
 }
