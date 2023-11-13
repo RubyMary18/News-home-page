@@ -550,7 +550,7 @@ ul.show {
   }
 
   .small-card-info p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   h5 {
@@ -563,6 +563,10 @@ ul.show {
 
   .wrapper {
     width: 90%;
+  }
+
+  .container {
+    padding-bottom: 80px;
   }
 }
 
@@ -644,5 +648,10 @@ ul.show {
 
   .small-card-info span {
     font-size: 32px;
+  }
+
+  .small-card-info p {
+    font-size: 14px;
+    width: 100%;
   }
 }
