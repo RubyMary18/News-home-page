@@ -233,6 +233,13 @@ h5:hover {
 
 .hamburger {
   display: none;
+  width: 40px;
+  height: 40px;
+}
+
+.hamburger img {
+  width: 30px;
+  height: 25px;
 }
 
 .hamburger-close {
