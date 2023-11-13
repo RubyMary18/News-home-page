@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/RubyMary18/News-home-page)
+- Live Site URL: [Add live site URL here](https://rubymary18.github.io/News-home-page/)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - (https://github.com/RubyMary18)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/RubyMary18)
