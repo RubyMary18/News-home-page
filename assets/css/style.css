@@ -619,6 +619,30 @@ ul.show {
   }
 
   .right-card {
-    padding: 25px 6% 0 6%;
+    padding: 18px 6% 0 6%;
+  }
+
+  .new-list h4 {
+    font-size: 19px;
+  }
+
+  .new-list p {
+    font-size: 14.5px;
+  }
+
+  .card > .wrapper {
+    width: 93%;
+  }
+
+  .small-card-list figure {
+    flex-basis: 30%;
+  }
+
+  .small-card-list li figure img {
+    height: 125px;
+  }
+
+  .small-card-info span {
+    font-size: 32px;
   }
 }
