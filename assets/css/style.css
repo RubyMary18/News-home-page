@@ -32,7 +32,7 @@ nav {
   align-items: center;
 }
 
-ul.right-nav {
+.right-nav {
   display: flex;
   gap: 43px;
 }
@@ -231,6 +231,38 @@ h5:hover {
   width: 85%;
 }
 
+.hamburger-close {
+  display: none;
+}
+
+.hamburger-icon {
+  padding: 10px 0 10px 10px;
+}
+
+.hamburger-icon:hover {
+  cursor: pointer;
+}
+
+ul.show {
+  display: block;
+}
+
+.hamburger-close.hide {
+  display: none;
+}
+
+.hamburger-menu.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 /*main section end*/
 
 /*Responsive Design*/
@@ -298,6 +330,14 @@ h5:hover {
   .small-card-info {
     padding: 0 5%;
   }
+
+  h4 {
+    font-size: 1.5vw;
+  }
+
+  .new-list p {
+    font-size: 1.2vw;
+  }
 }
 
 /*media query for 1024px starts here*/
@@ -306,10 +346,166 @@ h5:hover {
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  .card > .wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .left-card-bottom {
+    margin: 50px 0;
+    gap: 30px;
+  }
+
+  .left-card-bottom h2 {
+    font-size: 46px;
+    line-height: 57px;
+  }
+
+  .we-container p {
+    font-size: 15px;
+  }
+
+  .new-list h4 {
+    font-size: 20px;
+  }
+
+  .new-list p {
+    font-size: 15px;
+  }
+
+  .small-card-list {
+    flex-wrap: wrap;
+  }
+
+  .first-card,
+  .second-card,
+  .third-card {
+    flex-basis: 50%;
+  }
+
+  .card {
+    margin-bottom: 60px;
+  }
+
+  .small-card-list figure {
+    flex-basis: 40%;
+  }
+
+  .small-card-info {
+    flex-basis: 50%;
+  }
+
+  .small-card-list li figure img {
+    width: 100%;
+  }
+
+  .third-card {
+    margin-top: 35px;
+  }
+
+  .small-card-info span {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  .small-card-info p {
+    font-size: 13px;
+  }
+
+  .small-card-info {
+    padding: 0 2%;
+  }
+
+  .right-card {
+    color: #fff;
+    padding: 32px 8% 0 8%;
+  }
+
+  header {
+    padding: 60px 0 40px;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  .right-nav {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    flex-direction: column;
+    top: 60px;
+    gap: 25px;
+  }
+
+  .right-nav {
+    background-color: #101010;
+    padding: 30px 0;
+    display: none;
+  }
+
+  .right-nav li {
+    padding: 0 50px;
+  }
+
+  .right-nav li a {
+    color: #fff;
+  }
+
+  .right-nav li {
+    padding: 15px 50px;
+  }
 }
 
 /*media query for 768px starts here*/
 @media only screen and (max-width: 768px) {
+  .we-container p {
+    font-size: 13px;
+  }
+
+  .btn-div a {
+    font-size: 13px;
+  }
+
+  .left-card-bottom h2 {
+    font-size: 40px;
+  }
+
+  .small-card-list li {
+    flex-basis: 100%;
+  }
+
+  .third-card {
+    margin-top: 0px;
+  }
+
+  .small-card-list {
+    gap: 30px;
+  }
+
+  .small-card-list figure {
+    flex-basis: 50%;
+  }
+
+  .small-card-list li figure img {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .small-card-info span {
+    font-size: 45px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .small-card-info p {
+    font-size: 17px;
+  }
 }
 
 /*media query for 540px starts here*/
