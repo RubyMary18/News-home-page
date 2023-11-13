@@ -240,6 +240,7 @@ h5:hover {
 .hamburger img {
   width: 30px;
   height: 25px;
+  object-fit: cover;
 }
 
 .hamburger-close {
