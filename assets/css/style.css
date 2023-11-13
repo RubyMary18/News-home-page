@@ -231,6 +231,10 @@ h5:hover {
   width: 85%;
 }
 
+.hamburger {
+  display: none;
+}
+
 .hamburger-close {
   display: none;
 }
@@ -457,6 +461,10 @@ ul.show {
 
   .right-nav li {
     padding: 15px 50px;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
 
