@@ -1,28 +1,18 @@
-const menuBtn = document.querySelector('.hamburger-menu');
-const closeBtn = document.querySelector('.hamburger-close');
-const nav = document.querySelector('.right-nav');
-const hamburger = document.querySelector('.hamburger');
+const menuBtn = document.querySelector('.hamburger-menu'),
+      closeBtn = document.querySelector('.hamburger-close'),
+      nav = document.querySelector('.right-nav'),
+      hamburger = document.querySelector('.hamburger'),
+      body = document.querySelector('body');
 
-menuBtn.addEventListener('click', () => {
-    if(nav.classList.contains('hide')){
-        nav.classList.remove('hide');
-    }
-    nav.classList.add('show');
-    if(nav.classList.contains('show')){
-        menuBtn.classList.remove('show');
-        menuBtn.classList.add('hide');
-    }
-    closeBtn.classList.remove('hide');
-    closeBtn.classList.add('show');
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    closeBtn.classList.toggle('open');
+    body.classList.toggle('open');
 })
 
 closeBtn.addEventListener('click', () => {
-    nav.classList.remove('show');
-    nav.classList.add('hide');
-    if (nav.classList.contains('hide')) {
-        closeBtn.classList.remove('show');
-        closeBtn.classList.add('hide');
-        menuBtn.classList.remove('hide');
-        menuBtn.classList.add('show');
-    }
+    nav.classList.toggle('close');
+    closeBtn.classList.toggle('close');
+    body.classList.toggle('close');
+
 })
